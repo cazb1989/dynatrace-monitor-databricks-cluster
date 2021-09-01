@@ -72,13 +72,13 @@ dbutils.fs.ls("dbfs:/dynatrace/init-oneagent-6.sh")
 ```
 ### Replace the variables values:
 In case you do not used the variables names for Scope Databricks and Secret Name you can replace these values in the code.
-Replace 'secretScopeKeyVaultDemo' for the name of Scope Name created in the step
+Replace 'secretScopeKeyVaultDemo' for the name of Scope Name created in the step 2
 Replace 'databricksecret' for the name of the Secret.
 Aditionally, replace the 'dt_tenant' value with your Dynatrace tenant token.
 (Optional) Replace DATABRICKS in '--set-host-group' parameters.
   
 ### Run the code
-In this step your Cluster need to be started and remember is only to download the agent and generate the init script.
+In this step your Cluster needs to be started and remember it, is only to download the agent and generate the init script.
 6. Run the cell and see the result below. Your download should be successful
 ![image](https://user-images.githubusercontent.com/63391165/131608953-0810540e-061e-452b-94be-38e11070cc04.png)
 
