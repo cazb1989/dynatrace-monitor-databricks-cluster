@@ -45,7 +45,7 @@ url = 'https://'+str(dt_tenant)+'/api/v1/deployment/installer/agent/unix/default
 print(url)
 r = requests.get(url)
 print(r)
-
+dbutils.fs.mkdirs("/dynatrace")
 with open('/dbfs/dynatrace/oneagent.sh', 'wb') as f:
     f.write(r.content)
 #Validation file downloaded
