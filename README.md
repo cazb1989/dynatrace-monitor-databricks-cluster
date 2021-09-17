@@ -13,7 +13,7 @@ This instructions can help you to configure the monitoring for Azure Databricks 
 ### Configuren the Secret in Databricks Scope
 
 1. Replace this URL with the Databrick Workspace
-https://<azure-databricks-service-url>#secrets/createScope
+https://[azure-databricks-service-url]#secrets/createScope
   
   You can find this URL in the Azure Databricks Service with the name "URL" value
   
