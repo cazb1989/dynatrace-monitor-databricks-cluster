@@ -5,7 +5,7 @@ This instructions can help you to configure the monitoring for Azure Databricks 
 ### Requeriments
 
 - Azure Databricks (Premium version)
-- SaaS tenant ID (https://abc1234.live.dynatrace.com)
+- SaaS tenant ID (https://\<tenantID\>.live.dynatrace.com)
 - PaaS Token: Generated in Dynatrace
 - Key Vault
 - Secret Configurated with the Paas Token (Use "databricksecret" name)
